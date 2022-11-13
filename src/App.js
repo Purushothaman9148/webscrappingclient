@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import './App.css';
 
 
-const API = "http://localhost:4000/";
+const API = "https://webscrappingserver-production.up.railway.app/";
 
 function App() {
   const [result, setResult] = useState([]);
